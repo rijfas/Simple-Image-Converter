@@ -6,13 +6,13 @@ A simple python image converter
 
 Install pillow using pip.
 
-```sh
+```bash
 pip install pillow
 ```
 
 ## Usage:
 
-```sh
+```bash
 Usage:
 python resizer.py [input file name] [operation] [argument]
 
@@ -30,13 +30,13 @@ Example 2: python resizer.py image.png -r 250x200
 
 1. Image format conversion
 
-```sh
+```bash
 python resizer.py image.jpeg -f png
 ```
 
 2. Image resizing
 
-```sh
+```bash
 python resizer.py image.jpeg -r 200x200
 ```
 
